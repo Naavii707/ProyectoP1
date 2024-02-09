@@ -19,5 +19,5 @@ public class AttributeController : MonoBehaviour
     {
         return this.cantidad;
     }
-    
+
 }

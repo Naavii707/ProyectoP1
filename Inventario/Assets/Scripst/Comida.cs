@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Comida : MonoBehaviour
 {
-
     public GameObject obj;
     public int cant = 1;
 

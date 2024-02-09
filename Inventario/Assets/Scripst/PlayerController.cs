@@ -30,15 +30,15 @@ public class PlayerController : MonoBehaviour
             playerRB.velocity = new Vector2(-velocidad, playerRB.velocity.y);
         }
 
-        if (Input .GetKeyUp(KeyCode.I)) 
+        if (Input.GetKeyUp(KeyCode.I))
         {
-            if (!inventoryVisible) 
+            if (!inventoryVisible)
             {
                 inventoryVisible = true;
                 inventarioCom.SetActive(inventoryVisible);
                 GameObject.FindGameObjectWithTag("general-events").GetComponent<InventoryController>().showInventory();
             }
-            
+
 
             else
             {
@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        
+
     }
 
 

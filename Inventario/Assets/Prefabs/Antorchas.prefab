@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2612454917449755430}
   - component: {fileID: 1313707227366539549}
   - component: {fileID: 8938397100076764658}
-  - component: {fileID: 4669063475665107539}
+  - component: {fileID: 4640746075524992126}
   m_Layer: 0
   m_Name: Antorchas
   m_TagString: PickUp
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1270792, y: 3.95}
   m_EdgeRadius: 0
---- !u!114 &4669063475665107539
+--- !u!114 &4640746075524992126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,4 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 5892447378056364962, guid: 7dd0563fce577724caef7c41513b7265, type: 3}
-  cant: 2
+  cant: 1
